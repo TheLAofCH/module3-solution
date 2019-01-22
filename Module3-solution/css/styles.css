@@ -1,0 +1,277 @@
+h1 { color : red;
+  text-align: center;
+  font-family: Helvetica;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+header{
+  background-color: darkgrey;
+}
+.navbar-default {
+  background-color: darkgrey;
+  border-color: darkgrey;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float:left;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+  position: relative;
+}
+@media (min-width: 992px){
+  .btn{
+    display: none;
+  }
+
+  .glyphicon{
+    display: none;
+
+  }
+  .glyphicon-menu-hamburger{
+    display: none;
+
+  }
+  .container{
+    width: 95%;
+    height:auto;
+    position: relative;
+    padding-right: 1.5%;
+    padding-left: 1.5%
+    font-size:5vw;
+    margin-top: 5%;
+   
+  }
+  #FOODLLC{
+    height:90%;
+    float:left;
+    position: relative;
+    margin-left:5%;
+    text-align: none;
+    color:black;
+  }
+  .col-md-4{
+    float:left;
+    position:relative;
+    width: 31.33333333%;
+    background-color: lightgrey;
+    margin-right: 1%;
+  }
+  .text{
+    width:95%;
+  }
+  header{
+    background-color: darkgrey;
+  }
+  .navbar{
+    background-color: darkgrey;
+
+  }
+  a{
+    style:none;
+  }
+  .align{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  #back2top{
+    display: none;
+  }
+  #collapsable-nav{
+    display: none;
+  }
+  .navbar-toggle{
+    display: none;
+  }
+}
+@media (min-width: 480px) and (max-width:991px) {
+  .navbar-toggle{
+    display: none;
+  }
+  #collapsable-nav{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+  .container{
+    width: 95%;
+    height:auto;
+    position: relative;
+    padding-right: 2.5%;
+    padding-left: 2.5%
+    font-size:5vw;
+   
+  }
+  #FOODLLC{
+    height:90%;
+    float:left;
+    position: relative;
+    margin-left:5%;
+    text-align: none;
+    color:black;
+  }
+  .col-sm-6{
+    float:left;
+    position:relative;
+    background-color: lightgrey;
+    width:48%;
+    margin-right: 1%;
+  }
+  .col-sm-12{
+    background-color: lightgrey;
+    position: relative;
+    float: left;
+    margin-top:1%;
+  }
+  .text{
+    width:95%;
+  }
+  header{
+    background-color: darkgrey;
+  }
+  a{
+    style:none;
+  }
+  .align{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  #back2top{
+    display: none;
+  }
+}
+@media (max-width: 479px){
+  .dropdown-menu{
+
+  }
+  .container{
+    width: 95%;
+    height:auto;
+    position: relative;
+    padding-right: 2.5%;
+    padding-left: 2.5%
+    font-size:5vw;
+   
+  }
+  .btn{
+    float:right;
+    height: auto;
+    margin-top: 3%;
+    margin-right: 5%;
+    position: relative;
+    width:auto;
+    background-color: darkgrey;
+
+  }
+  .glyphicon{
+    position: center;
+  }
+  .glyphicon-menu-hamburger{
+    position: center;
+  }
+  #FOODLLC{
+    height:90%;
+    float:left;
+    position: relative;
+    margin-left:5%;
+    text-align: none;
+    color:black;
+  }
+  .col-xs-12{
+    float:left;
+    position:relative;
+    background-color: lightgrey;
+    margin-top: 5px;
+  }
+  header{
+    background-color: darkgrey;
+  }
+  a{
+    style:none;
+  }
+  .align{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  #toggle-1:checked ~ .dropdown-menu{
+    background-color: black;
+    display: block;
+
+  }
+  .burger-shower {
+    display: none;
+  }
+
+  .burger-shower:checked ~ .burger-menu {
+    display: block;
+  }
+
+  .hamburger {
+    display:block;
+    width: 3.4em;
+    height: 2.4em;
+    line-height: .1em;
+    border: .1em solid #ddd;
+    padding: 0 .4em .4em;
+    float:right;
+    border-top: 5% ;
+    border-right: 5%;
+  }
+
+  .hamburger br {
+    color: black;
+    height: 2px;
+    border: 5%;
+    background: black;
+
+  }
+
+  .burger-menu {
+     display:none;
+  }
+  header {
+    background-color: darkgrey;
+    border-bottom: 0%;
+    padding-bottom: 0%;
+  }
+  #back2top{
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+  }
+}
+#collapsable-nav{
+  float: left;
+  width: 100%;
+  margin-top: 0%;
+  border-top: 0%;
+
+}
+#collapsable-nav a{
+  float: left;
+  width: 100%;
+}
+#collapsable-nav a li{
+  color: black;
+  text-align: center;
+  text-decoration: none; 
+  background-color: lightgrey;
+  border: black;
+  float: left;
+  width: 100%;
+  font-size: 125%;
+}
+ul {
+  list-style-type: none;
+  float: left;
+  width: 100%;
+  padding: 0%;
+}
